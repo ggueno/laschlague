@@ -5,10 +5,11 @@ main, header, footer{
 }
 
 html{
-	background: url(../img/debat.jpg) no-repeat center center;
-	background-size: cover;
-	height: 100%;
-	width: 100%;
+	margin:0;
+  	padding:0;
+  	background: url('../img/debat.jpg') no-repeat center fixed; 
+  	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  	background-size: cover; /* version standardisée */
 	font-family: 'Contrail One', cursive;
 	font-weight: 100;
 }
@@ -20,7 +21,7 @@ footer{
 main{
 	padding: 3em;
 	background-color: rgba(255,255,255, 0.7);
-	border-radius: 50px;
+	border-radius: 0px;
 }
 
 header{
@@ -79,5 +80,5 @@ li a:hover{
 
 footer{
 	padding: 1em 0;
-	color
+	overflow: hidden;
 }
