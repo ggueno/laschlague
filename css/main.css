@@ -4,8 +4,33 @@ main, header, footer{
 	text-align: center;
 }
 
+html{
+	background: url(../img/debat.jpg) no-repeat center center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	font-family: 'Contrail One', cursive;
+	font-weight: 100;
+}
+
 footer{
 	font-size: 0.8em;
+}
+
+main{
+	padding: 3em;
+	background-color: rgba(255,255,255, 0.7);
+}
+
+header{
+	color: white;
+	padding: 3em 0;
+}
+
+header h1{
+	color: white;
+	font-size: 5em;
+	font-weight: 200;
 }
 
 #main_video{
@@ -34,4 +59,18 @@ li a
 	text-decoration: under;
 	color: black;
 	font-weight: 800;
+	color: white;
+	background-color: #e00873;
+	padding: 1em 1em;
+	display: block;
+	margin: 1em;
+}
+
+li a:hover{
+	background-color: #e04f97;
+}
+
+footer{
+	padding: 1em 0;
+	color
 }
